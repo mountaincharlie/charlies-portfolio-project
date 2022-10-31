@@ -1,0 +1,78 @@
+body{
+    color:#FAF8F6;
+    /* font-family:'Comfortaa', sans-serif; */
+    font-family:'Fuzzy Bubbles', sans-serif;
+    
+    background-color: #8686AF;
+}
+
+h1{
+    /* font-family:'Fuzzy Bubbles', sans-serif; */
+    /* font-family:'Comfortaa', sans-serif; */
+}
+
+
+/* --------------- site colors */
+
+.portfolio-indigo{
+    color:#8686AF;
+}
+
+.portfolio-white{
+    color:#FAF8F6;
+}
+
+.portfolio-cyan{
+    color:#A4D8D8;
+}
+
+a:hover{
+    color:#A4D8D8 !important;
+}
+
+li:hover{
+    color:#A4D8D8 !important;
+}
+
+
+/* --------------- fixed header */
+
+.header-lists{
+    padding-left:0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /* color: black; */
+}
+
+.header-lists i{
+    /* color: black; */
+}
+
+.header-lists a{
+    color: #FAF8F6;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#header-links-container{
+    border-top: 4px solid #A4D8D8;
+    border-right: 4px solid #A4D8D8;
+    /* border-radius: 4px; */
+}
+
+
+/* --------------- home page */
+
+#logo-img-container{
+    /* border-radius: 4px; */
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+}
+
+#logo-img{
+    border:4px solid #A4D8D8;
+    border-radius: 50%;
+    width:100%;
+    height:100%;
+}
