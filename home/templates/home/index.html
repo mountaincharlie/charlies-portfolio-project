@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %} - Home{% endblock %}
+ 
+{% block content %}
+
+<div class="container py-4">
+
+    <div class="row">
+
+        <div class="col-4">
+            <div id="logo-img-container">
+                <img id="logo-img" src="/media/portfolio-logo.jpg" alt="charlie's portfolio site logo">
+                <!-- <img src="{{ MEDIA_URL }}portfolio-logo.jpg" alt="charlie's portfolio site logo"> -->
+            </div>
+        </div>
+    
+    
+        <div class="col-8 text-center">
+            <p>some text</p>
+        </div>
+    </div>
+
+</div>
+ 
+
+{% endblock %}
