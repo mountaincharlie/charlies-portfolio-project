@@ -28,7 +28,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # DEBUG = True
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['charlottes-portfolio.herokuapp.com', 'localhost']
+CSRF_TRUSTED_ORIGINS = ['https://8000-mountaincha-charliespor-1nzp75ws0ze.ws-eu73.gitpod.io']
+
+ALLOWED_HOSTS = ['charlottes-portfolio.herokuapp.com', 'localhost',]
 
 
 # Application definition
