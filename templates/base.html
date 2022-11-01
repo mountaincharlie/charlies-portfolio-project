@@ -53,21 +53,21 @@
 
     <body>
         <header class="sticky-top w-100">
-            <nav class="navbar navbar-light w-100">
+            <nav class="navbar navbar-light w-100 pb-0">
 
                 <!-- ------ for medium screens and above ---- -->
-                <div class="container-fluid d-none d-md-block m-0 px-0">
+                <div class="container-fluid d-none d-sm-block m-0 px-0">
                     {% include 'includes/desktop-header.html' %}
                 </div>
 
                 <!-- ------ for smallest screen up to medium ----- -->
-                <!-- <div class="container d-block d-md-none m-0 px-0">
+                <div class="container-fluid d-block d-sm-none m-0 px-0">
                     {% include 'includes/mobile-header.html' %}
-                </div> -->
+                </div>
             </nav>
         </header>
 
-        <main class="content-block">
+        <main id="content-block">
             {% block content %}
             {% endblock %}
         </main>

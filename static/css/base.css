@@ -4,11 +4,9 @@ body{
     font-family:'Fuzzy Bubbles', sans-serif;
     
     background-color: #8686AF;
-}
 
-h1{
-    /* font-family:'Fuzzy Bubbles', sans-serif; */
-    /* font-family:'Comfortaa', sans-serif; */
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
 
@@ -35,6 +33,17 @@ li:hover{
 }
 
 
+/* --------------- site fonts */
+
+.basic-font{
+    font-family:'Comfortaa', sans-serif;
+}
+
+.logo-font{
+    font-family:'Fuzzy Bubbles', sans-serif;
+}
+
+
 /* --------------- fixed header */
 
 .header-lists{
@@ -42,7 +51,7 @@ li:hover{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    /* color: black; */
+    margin: 0;
 }
 
 .header-lists i{
@@ -62,6 +71,18 @@ li:hover{
 }
 
 
+/* --------------- base template */
+
+#content-block{
+    min-height: 94vh;
+}
+
+.navbar{
+    background-color: #8686AF;
+    min-height: 8vh;
+}
+
+
 /* --------------- home page */
 
 #logo-img-container{
@@ -73,6 +94,20 @@ li:hover{
 #logo-img{
     border:4px solid #A4D8D8;
     border-radius: 50%;
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
 }
+
+.virtically-centralised{
+    margin:auto;
+}
+
+.container{
+    max-width: 100%;
+    min-height: inherit;
+}
+
+.container-right-border{
+    border-right: 4px solid #A4D8D8;
+}
+

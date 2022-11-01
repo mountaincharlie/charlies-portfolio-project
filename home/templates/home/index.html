@@ -5,11 +5,12 @@
  
 {% block content %}
 
-<div class="container py-4">
+<div class="container container-right-border pt-4">
 
-    <div class="row">
+    <!-- ------ 2 cols for medium screens and above ---- -->
+    <div class="row d-none d-sm-flex px-4 pt-4">
 
-        <div class="col-4">
+        <div class="col-4 m-0">
             <div id="logo-img-container">
                 <img id="logo-img" src="/media/portfolio-logo.jpg" alt="charlie's portfolio site logo">
                 <!-- <img src="{{ MEDIA_URL }}portfolio-logo.jpg" alt="charlie's portfolio site logo"> -->
@@ -17,11 +18,49 @@
         </div>
     
     
-        <div class="col-8 text-center">
-            <p>some text</p>
+        <div class="col-8 text-center virtically-centralised basic-font">
+            <h1>I'm <span class="portfolio-cyan fw-bolder">Charlotte Harland</span></h1>
+            <h4>Junior Software Developer</h4>
         </div>
     </div>
 
+    <!-- ------ 1 col for small screens and below ---- -->
+
+    <div class="row d-block d-sm-none px-4">
+
+        <div class="col-12 text-center">
+            <div id="logo-img-container">
+                <img id="logo-img" src="/media/portfolio-logo.jpg" alt="charlie's portfolio site logo">
+                <!-- <img src="{{ MEDIA_URL }}portfolio-logo.jpg" alt="charlie's portfolio site logo"> -->
+            </div>
+
+            <div class="row">
+                <!-- LinkedIn, Github, Email icons -->
+                <div class="col-12 p-2">
+                    <ul class="header-lists fs-2">
+                        <li>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-solid fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row d-block d-sm-none pt-4 px-4">
+
+        <div class="col-12 text-center virtically-centralised basic-font">
+            <h1>I'm <span class="portfolio-cyan fw-bolder">Charlotte Harland</span></h1>
+            <h4>Junior Software Developer</h4>
+        </div>
+
+    </div>
 </div>
  
 
